@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">IpShift</string>
+    <string name="action_settings">设置</string>
+    <string name="title_activity_sys">进制转换</string>
+    <string name="title_activity_ip">Ip转换</string>
+    <string name="ip_sys">IP、进制转换</string>
+    <string name="sys">进制转换</string>
+    <string name="ip">IP转换</string>
+    <string name="choice_type">选择转换类型</string>
+    <string name="int_sec">整数部分</string>
+    <string name="decimal_sec">可选小数部分</string>
+    <string name="method">查看方法</string>
+    <string name="illegal">不合法字符</string>
+    <string name="bin_illegal">二进制只能输入[0,1]</string>
+    <string name="oct_illegal">八进制只能输入[0,7]</string>
+    <string name="dec_illegal">十进制只能输入[0,9]</string>
+    <string name="hex_illegal">十六进制只能输入[0,9]或[A,F]</string>
+    <string name="input_type">0123456789ABCDEF</string>
+    <string name="ip_mask">ip/网络位:</string>
+    <string name="mask">掩码:</string>
+    <string name="ad_ip">ip地址:</string>
+    <string name="ad_net">网络地址:</string>
+    <string name="ad_first">第一个可用:</string>
+    <string name="ad_end">最后一个可用:</string>
+    <string name="ad_br">广播地址:</string>
+    <string name="net_count">网络位:</string>
+    <string name="host_count">主机位:</string>
+    <string name="subnet_count">子网:</string>
+    <string name="sprit">/</string>
+    <string name="cal">计算</string>
+    <string name="ip_count">可用地址数(不含网络和广播地址):</string>
+    <string name="need_count">所需主机数(不含网络和广播地址):</string>
+    <string name="net_type">网络类型:</string>
+    <string name="dec">十进制:</string>
+    <string name="hex">十六进制:</string>
+    <string name="clear">清空</string>
+    <string name="isNull">计算数据不能为空！</string>
+    <string name="isNull2">整数部分不能为空，纯小数填0</string>
+    <string name="beyond">输入值超出范围！</string>
+    <string name="type_a">A类(子网默认划分为A类)</string>
+    <string name="type_b">B类(子网默认划分为B类)</string>
+    <string name="type_c">C类(子网默认划分为C类)</string>
+    <string name="type_d">D类</string>
+    <string name="type_e">E类</string>
+
+    <string-array name="sys_type">
+        <item>二进制</item>
+        <item>八进制</item>
+        <item>十进制</item>
+        <item>十六进制</item>
+    </string-array>
+    <string-array name="ip_type">
+        <item>CIDR->主机数</item>
+        <item>子网掩码->网络位</item>
+        <item>网络位->子网掩码</item>
+        <item>主机数->网络位</item>
+        <item>IP及主机数->子网数</item>
+    </string-array>
+    <string-array name="numerical_type">
+        <item>选择</item>
+        <item>128</item>
+        <item>192</item>
+        <item>224</item>
+        <item>240</item>
+        <item>248</item>
+        <item>252</item>
+        <item>254</item>
+        <item>255</item>
+    </string-array>
+</resources>

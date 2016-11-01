@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">IpShift</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sys">SysActivity</string>
+    <string name="title_activity_ip">IpActivity</string>
+    <string name="ip_sys">IP、SYS Shift</string>
+    <string name="sys">System Shift</string>
+    <string name="ip">IP Shift</string>
+    <string name="choice_type">select type</string>
+    <string name="int_sec">integer</string>
+    <string name="decimal_sec">decimal available</string>
+    <string name="method">view method</string>
+    <string name="illegal">illegal char</string>
+    <string name="bin_illegal">Binary can only[0,1]</string>
+    <string name="oct_illegal">Octonary can only[0,7]</string>
+    <string name="dec_illegal">Decimal can only[0,9]</string>
+    <string name="hex_illegal">Hexadecimal can only[0,9]或[A,F]</string>
+    <string name="input_type">0123456789ABCDEF</string>
+    <string name="ip_mask">ip/net bits:</string>
+    <string name="mask">mask:</string>
+    <string name="ad_ip">ip:</string>
+    <string name="ad_net">net address:</string>
+    <string name="ad_first">the first can use:</string>
+    <string name="ad_end">the last can use:</string>
+    <string name="ad_br">Broadcast address:</string>
+    <string name="net_count">net bits:</string>
+    <string name="host_count">host bits:</string>
+    <string name="subnet_count">subnet:</string>
+    <string name="sprit">/</string>
+    <string name="cal">calculate</string>
+    <string name="ip_count">address can use(except net and broadcast):</string>
+    <string name="need_count">host needed(except net and broadcast):</string>
+    <string name="net_type">net type:</string>
+    <string name="dec">Decimal:</string>
+    <string name="hex">Hexadecimal:</string>
+    <string name="clear">clear</string>
+    <string name="isNull">data is null！</string>
+    <string name="isNull2">integer section is null，pure decimal input 0</string>
+    <string name="beyond">input out of range！</string>
+    <string name="type_a">A type(default divided into A type)</string>
+    <string name="type_b">B type(default divided into B type)</string>
+    <string name="type_c">C type(default divided into C type)</string>
+    <string name="type_d">D type</string>
+    <string name="type_e">E type</string>
+
+    <string-array name="sys_type">
+        <item>Binary</item>
+        <item>Octonary</item>
+        <item>Decimal</item>
+        <item>Hexadecimal</item>
+    </string-array>
+    <string-array name="ip_type">
+        <item>CIDR->host number</item>
+        <item>mask->net bits</item>
+        <item>net bits->mask</item>
+        <item>host number->net bits</item>
+        <item>ip/host num->subnet num</item>
+    </string-array>
+    <string-array name="numerical_type">
+        <item>select</item>
+        <item>128</item>
+        <item>192</item>
+        <item>224</item>
+        <item>240</item>
+        <item>248</item>
+        <item>252</item>
+        <item>254</item>
+        <item>255</item>
+    </string-array>
+</resources>
